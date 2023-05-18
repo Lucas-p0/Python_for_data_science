@@ -25,5 +25,13 @@ Lista_c = Acessorios[0:5]+Carro_1
 
 # print(Lista_c)
 
+'''for lista in dados:
+    for item in lista:
+        Acessorios.append(item)'''
+
+list(set([item for lista in dados for item in lista]))
+
 Acessorios.sort()
+
+
 print(Acessorios)
